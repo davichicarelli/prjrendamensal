@@ -7,8 +7,8 @@ if ($rendamensal==false) {
 $mensagem = "ERRO: Valores inválidos!!!";
 } else {
     $imposto = ($rendamensal * 7.5) / 100;
-    $mensagem = "<p> Nome=>" . $_GET["nome"] . "</p>" .
-    $mensagem = "<p> Renda Mensal=>" . $_GET["rendamensal"] . "</p>" .
+    $mensagem = "<p> Nome => " . $_GET["nome"] . "</p>" .
+    $mensagem = "<p> Renda Mensal => " . $_GET["rendamensal"] . "</p>" .
                $nome. ", você terá que pagar R$" .$imposto. " de imposto";
 }
 ?>
